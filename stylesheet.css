@@ -1,0 +1,323 @@
+* {
+	margin: 0;
+	padding: 0; 
+	box-sizing: border-box; }
+body { 
+	font-size: 1em;
+	width: 100%;
+	color: #000;
+	overflow-x: hidden;
+	font-family: helvetica; }
+
+nav {
+	width: 100%;
+	padding-top: 10px;
+	color: #000;
+	font-size: 1.3em;
+  	font-family: 'cookie';  }
+nav ul {
+  	display: inline-block;
+	float: right;
+	margin-right: 40px; }
+nav ul li { 
+	margin: 10px;
+	display: inline-block; }
+nav ul li a, nav ul li a:visited {
+	text-decoration: none;
+    color: #fff; }
+nav ul li a:hover {
+	color: #4de; }
+nav .companyLogo { 
+	display: inline;
+	float: left;
+	margin: 5px 10px 10px 15px;
+	color: #fff; }
+
+header {
+	background-image: url('images/mountain.jpg');
+  	background-size: 100%;
+  	background-size: cover;
+  	height: 500px; 
+  	background-repeat: no-repeat; }
+
+.information  {
+	display: inline-block;
+	margin: 25px 0;
+	width: 100%;
+	text-align: center; }
+.information .fa {
+	color: #e42; }
+.information h1 {
+	font-size: 2.5em;
+	font-family: 'Cookie';
+	color: #e42;
+	padding: 20px 0; }
+.information p {
+	width: 70%;
+	margin: 0 15%;
+	color: #fff;
+	text-align: center; }
+
+.section {
+	width: 100%; }
+.section h1 {
+	text-align: center;
+	font-family: 'Cookie';
+	font-size: 3em; }
+
+.whatWeDo {  
+	width: 100%;
+	padding: 0px 0 10px;
+	background-color: #e42;   }
+.whatWeDo h1 { 
+	padding: 100px 0;
+	line-height: 50px; }
+
+.container {
+	position: relative;
+	width: 100%; }
+.row {
+	position: absolute;
+	width: 80%;
+	margin: 0 10%;
+	top: -15px ; }
+
+.feature  {
+	width: 25%;
+	float: left;
+	text-align: center;  }
+.feature .fa {
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	line-height: 35px;
+	font-size: 1em;
+	border: 4px solid #fff;
+	border-radius: 50%;
+	background-color: #e42; }
+.feature h2 {
+	color: #e42;
+	font-size: 1.5em;
+	margin: 25px 0;
+	text-align: center;
+	font-family: 'Cookie'; }
+.feature p {
+	text-align: center;
+	font-size: 0.7em;
+	margin: 10px 20px;  }
+
+
+.blog {
+	background-color: #fff; 
+	padding: 300px 0 150px; }
+.blogDescription {
+	width: 60%;
+	padding: 50px 0;
+	margin: 0 20%; }
+.blogButton {
+	text-align: center;
+	outline: none; }
+.blogButton button {
+	text-align: center;
+	width: 150px;
+	color: #fff;
+	font-size: 1em;
+	background-color: #333; 
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: 2px solid #333;
+	cursor: pointer; }
+.blogButton button:hover {
+	background-color: #fff;
+	border: 2px solid #444;
+	color: #444;
+	transition: color 0.5s, background-color 0.5s;  }
+
+.staff {
+	background-color: #444;
+	background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+	width: 100%;  }
+.staff h1 { 
+	padding: 50px 0;
+	color: #fff;
+	font-size: 3em;
+	text-align: center;
+	font-family: 'Cookie'; }
+.member {
+	width: 50%;
+	height: auto;
+	color: #ccc;background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+	background-color: #444;
+	float: left;
+	text-align: center;
+	padding: 25px 0; }
+
+.member img {
+	width: 50%;
+	margin: 0 25%;
+	height: auto;
+	text-align: center;
+	border-radius: 50%; }
+
+.member h2 {
+	text-align: center;
+	display: block;
+	width: 100%;
+	font-size: 2em;
+	font-family: 'Cookie';
+	margin: 10px 0; } 
+.member p {
+	text-align: center;
+	margin: 0px 10%;
+	width: 80%; }
+.member:hover {
+	background-color: #555;
+	color: #fff;
+	transition: background-color 0.5s; }
+
+.member .socialMedia {
+	width: 100%;
+	padding: 0px; }
+
+
+.member:hover {
+	background-color: #555;
+	color: #fff;
+	transition: background-color 0.5s; }
+
+.member .socialMedia i {
+	text-align: center;
+	padding: 20px 15px;
+	color: #4de; 	}
+.member .socialMedia i:hover {
+	color: #fff;
+	text-shadow: 2px 2px 0px #777;
+	transition: color 0.5s; }
+
+footer {
+	box-sizing: border-box;
+	clear: both;
+	text-align: center;
+	color: #777;
+	width: 100%;
+	font-size: 0.8em; }
+.footerMenus {
+	width: 60%;
+	margin: 0 20%;
+	padding: 20px 0;
+	float: left;
+	display: block; }
+.footerMenuOne, .footerMenuTwo, .footerMenuThree {
+	width: 100%;
+	float: left;
+	padding: 10px 0; }
+.footerMenuOne ul, .footerMenuTwo ul, .footerMenuThree ul {
+	list-style:  none; }
+.footerMenuOne li, .footerMenuTwo li, .footerMenuThree li {
+	list-style:  none; 
+	padding: 3px 0; }
+.footerMenuOne a, .footerMenuTwo a, .footerMenuThree a {
+	text-decoration: none;
+	color: #888; }
+.footerMenuOne a:hover, .footerMenuTwo a:hover, .footerMenuThree a:hover {
+	text-decoration: underline;
+	color: #e42; }
+
+.footerMenus h4 {
+	text-transform: uppercase;
+	padding: 5px 0;
+	color: #777; }
+
+footer .socialMediaBar { 
+  display: block;
+  background-color: #ccc; }
+footer .socialMediaBar ul li {
+  display: inline-block;
+  padding: 50px 15px;  }
+footer .socialMediaBar ul li a, footer ul li a:visited {
+  color: #888;
+  text-decoration: none; 
+  text-transform: uppercase;  }
+footer .socialMediaBar ul li a:hover {
+  color: #4de;  }
+
+.footerCopyright {
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	width: 100%;  }
+.footerCopyright a, .footerCopyright a:hover, .footerCopyright a:visited {
+	text-decoration: none;
+	color: #e42; }
+
+/****** TABLET VIEW ******/
+
+@media (min-width:461px)  {
+.footerMenus {
+	width: 60%;
+	margin: 0 20%; }
+.footerMenuOne, .footerMenuTwo, .footerMenuThree {
+	width: 33%;
+	float: left;
+	padding: 50px 0; }
+.member {
+	width: 25%; }
+  }
+
+
+/****** DESKTOP VIEW ******/
+
+@media (min-width:961px)  {
+
+.information  { 
+	margin: 100px 0; }
+
+.information h1 {
+	font-size: 4em; }
+.information p {
+	width: 50%;
+	margin: 25%; }
+.footerMenus {
+	width: 60%;
+	margin: 0 20%; }
+.footerMenuOne, .footerMenuTwo, .footerMenuThree {
+	width: 33%;
+	float: left;
+	padding: 50px 0; }
+.member .socialMedia { 
+	padding: 20px; }
+
+
+.row {
+	position: absolute;
+	width: 80%;
+	margin: 0 10%;
+	top: -35px ; }
+.feature  {
+	width: 25%;
+	float: left;
+	text-align: center;  }
+.feature .fa {
+	color: #fff;
+	width: 100px;
+	height: 100px;
+	line-height: 80px;
+	font-size: 2em;
+	border: 8px solid #fff;
+	border-radius: 50%;
+	background-color: #e42; }
+.feature h2 {
+	color: #e42;
+	font-size: 2.5em;
+	text-align: center;
+	font-family: 'Cookie';
+	margin: 0; }
+.feature p {
+	text-align: center;
+	font-size: 1em;
+	margin: 10px 20px;  }
+
+}
+
+
+

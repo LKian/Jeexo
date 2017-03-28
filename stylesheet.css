@@ -4,9 +4,7 @@
 	box-sizing: border-box; }
 body { 
 	font-size: 1em;
-	width: 100%;
 	color: #000;
-	overflow-x: hidden;
 	font-family: helvetica; }
 
 nav {
@@ -27,7 +25,7 @@ nav ul li a, nav ul li a:visited {
     color: #fff; }
 nav ul li a:hover {
 	color: #4de; }
-nav .companyLogo { 
+nav .companylogo { 
 	display: inline;
 	float: left;
 	margin: 5px 10px 10px 15px;
@@ -36,7 +34,6 @@ nav .companyLogo {
 header {
 	background-image: url('images/mountain.jpg');
   	background-size: 100%;
-  	background-size: cover;
   	height: 500px; 
   	background-repeat: no-repeat; }
 
@@ -47,12 +44,8 @@ header {
 	text-align: center; }
 .information .fa {
 	color: #e42; }
-.information h1 {
-	font-size: 2.5em;
-	font-family: 'Cookie';
-	color: #e42;
-	padding: 20px 0; }
-.information p {
+
+.description {
 	width: 70%;
 	margin: 0 15%;
 	color: #fff;
@@ -63,15 +56,17 @@ header {
 .section h1 {
 	text-align: center;
 	font-family: 'Cookie';
-	font-size: 3em; }
+	font-size: 4em;
+	color: #fff;
+	padding: 20px 0; }
 
-.whatWeDo {  
+.whatwedo {  
 	width: 100%;
-	padding: 0px 0 10px;
+	padding: 0 0 10px;
 	background-color: #e42;   }
-.whatWeDo h1 { 
+.whatwedo h1 { 
 	padding: 100px 0;
-	line-height: 50px; }
+	color: #000; }
 
 .container {
 	position: relative;
@@ -110,14 +105,14 @@ header {
 .blog {
 	background-color: #fff; 
 	padding: 300px 0 150px; }
-.blogDescription {
+.blogdescription {
 	width: 60%;
 	padding: 50px 0;
 	margin: 0 20%; }
-.blogButton {
+.blogbutton {
 	text-align: center;
 	outline: none; }
-.blogButton button {
+.blogbutton button {
 	text-align: center;
 	width: 150px;
 	color: #fff;
@@ -127,7 +122,7 @@ header {
 	border-radius: 5px;
 	border: 2px solid #333;
 	cursor: pointer; }
-.blogButton button:hover {
+.blogbutton button:hover {
 	background-color: #fff;
 	border: 2px solid #444;
 	color: #444;
@@ -139,10 +134,7 @@ header {
 	width: 100%;  }
 .staff h1 { 
 	padding: 50px 0;
-	color: #fff;
-	font-size: 3em;
-	text-align: center;
-	font-family: 'Cookie'; }
+	color: #fff; }
 .member {
 	width: 50%;
 	height: auto;
@@ -185,78 +177,75 @@ header {
 	color: #fff;
 	transition: background-color 0.5s; }
 
-.member .socialMedia i {
+.member .socialmedia i {
 	text-align: center;
 	padding: 20px 15px;
 	color: #4de; 	}
-.member .socialMedia i:hover {
+.member .socialmedia i:hover {
 	color: #fff;
 	text-shadow: 2px 2px 0px #777;
 	transition: color 0.5s; }
 
-footer {
-	box-sizing: border-box;
+footer { 
 	clear: both;
 	text-align: center;
 	color: #777;
 	width: 100%;
 	font-size: 0.8em; }
-.footerMenus {
+.footermenus {
 	width: 60%;
 	margin: 0 20%;
 	padding: 20px 0;
 	float: left;
 	display: block; }
-.footerMenuOne, .footerMenuTwo, .footerMenuThree {
+.footermenuone, .footermenutwo, .footermenuthree {
 	width: 100%;
 	float: left;
 	padding: 10px 0; }
-.footerMenuOne ul, .footerMenuTwo ul, .footerMenuThree ul {
-	list-style:  none; }
-.footerMenuOne li, .footerMenuTwo li, .footerMenuThree li {
+.footermenuone li, .footermenutwo li, .footermenuthree li {
 	list-style:  none; 
 	padding: 3px 0; }
-.footerMenuOne a, .footerMenuTwo a, .footerMenuThree a {
+.footermenuone a, .footermenutwo a, .footermenuthree a {
 	text-decoration: none;
 	color: #888; }
-.footerMenuOne a:hover, .footerMenuTwo a:hover, .footerMenuThree a:hover {
+.footermenuone a:hover, .footermenutwo a:hover, .footermenuthree a:hover {
 	text-decoration: underline;
 	color: #e42; }
 
-.footerMenus h4 {
+.footermenus h4 {
 	text-transform: uppercase;
 	padding: 5px 0;
 	color: #777; }
 
-footer .socialMediaBar { 
+footer .socialmediabar { 
   display: block;
   background-color: #ccc; }
-footer .socialMediaBar ul li {
+footer .socialmediabar ul li {
   display: inline-block;
   padding: 50px 15px;  }
-footer .socialMediaBar ul li a, footer ul li a:visited {
+footer .socialmediabar ul li a, footer ul li a:visited {
   color: #888;
   text-decoration: none; 
   text-transform: uppercase;  }
-footer .socialMediaBar ul li a:hover {
+footer .socialmediabar ul li a:hover {
   color: #4de;  }
 
-.footerCopyright {
+.footercopyright {
 	display: block;
 	height: 50px;
 	line-height: 50px;
 	width: 100%;  }
-.footerCopyright a, .footerCopyright a:hover, .footerCopyright a:visited {
+.footercopyright a, .footercopyright a:hover, .footercopyright a:visited {
 	text-decoration: none;
 	color: #e42; }
 
 /****** TABLET VIEW ******/
 
 @media (min-width:461px)  {
-.footerMenus {
+.footermenus {
 	width: 60%;
 	margin: 0 20%; }
-.footerMenuOne, .footerMenuTwo, .footerMenuThree {
+.footermenuone, .footermenutwo, .footermenuthree {
 	width: 33%;
 	float: left;
 	padding: 50px 0; }
@@ -272,8 +261,7 @@ footer .socialMediaBar ul li a:hover {
 .information  { 
 	margin: 100px 0; }
 
-.information h1 {
-	font-size: 4em; }
+.information h1 { }
 .information p {
 	width: 50%;
 	margin: 0 25%; }
